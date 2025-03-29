@@ -11,12 +11,10 @@ The goal is to move beyond generic AI interactions and enable more focused, expe
 Prompts are organized into directories based on their area of application. Currently, the structure includes:
 
 *   **/dev**: Prompts related to software development, tooling, architecture, and engineering practices.
-    *   [`dev/conceptual_db_design_guide.prompt`](./dev/conceptual_db_design_guide.prompt) & [README](./dev/README_db_design.md) - A brainstorming partner for database design concepts.
-    *   [`dev/ultimate_frontend_tooling_expert.prompt`](./dev/ultimate_frontend_tooling_expert.prompt) & [README](./dev/README_frontend_tooling.md) - An expert for complex frontend build configurations and debugging.
 *   **/everyday** (Planned): Prompts designed for general productivity, creative tasks, or common everyday assistance.
 *   *(Other categories may be added over time)*
 
-Each prompt file (`.prompt`) contains the raw text to be used with an LLM. Some directories may also contain specific `README.md` files (like `README_db_design.md`) that provide more detailed context, use cases, and examples for that particular prompt or category.
+Each prompt file (`.prompt`) contains the raw text to be used with an LLM, more detailed context, use cases, and examples for that particular prompt or category.
 
 ## How to Use a Prompt
 
